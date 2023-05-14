@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Password Generator | AbinandhMJ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+
+    <!-- Google Icon Link for Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- External Stylesheets -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- External Js -->
+    <script src="./assets/js/script.js" defer></script>
+
+  </head>
+  <body>
+    <header>
+        <!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+  
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="index.html"><img src="./assets/img/favicon.png" width="30" height="30" alt="Logo-image">&nbsp;Password Generator</a>
+  
+      <!-- Toggle button -->
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+  
+        </ul>
+  
+        <!-- Icons -->
+        <ul class="navbar-nav d-flex flex-row me-1">          
+          <li class="nav-item me-3 me-lg-0">
+            <a  class="nav-link" href="https://github.com/AbinandhMJ" target="_blank"><img src="./assets/img/github-mark-white.svg" class="social-media" alt="github-logo"></a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a  class="nav-link" href="https://www.linkedin.com/in/abinandhmj/" target="_blank"><img src="./assets/img/linkedin logo.png" class="social-media" alt="linkedin-logo"></a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a  class="nav-link" href="mailto:abinandhmurukesan@gmail.com" target="_blank"><img src="./assets/img/mail.svg" class="social-media" alt="linkedin-logo"></a>
+          </li>
+        </ul>
+  
+      </div>
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+    </header>
+    <!-- Welcome Card -->
+    <div class="intro">
+        <h1>Instantly generate a secure, random password with the Random Password Generator Online tool</h1>
+        <p class="nav__item-desc">
+            Generate randomized, strong, secure passwords.
+        </p>
+    </div>
+    <!-- Welcome Card End -->
+    <div class="content-body">
+    <div class="container">
+      <h2>Password Generator</h2>
+      <div class="wrapper">
+        <div class="input-box">
+          <input type="text" disabled>
+          <span class="material-symbols-rounded">
+            copy_all 
+          </span>
+        </div>
+        <div class="pass-indicator"></div>
+        <div class="pass-length">
+          <div class="details">
+            <label class="title">Password Length</label>
+            <span></span>
+          </div>
+          <input type="range" min="1" max="30" value="15" step="1">
+        </div>
+        <div class="pass-settings">
+          <label class="title">Password Settings</label>
+          <ul class="options">
+            <li class="option">
+              <input type="checkbox" id="lowercase" checked>
+              <label for="lowercase">Lowercase (a-z)</label>
+            </li>
+            <li class="option">
+              <input type="checkbox" id="uppercase">
+              <label for="uppercase">Uppercase (A-Z)</label>
+            </li>
+            <li class="option">
+              <input type="checkbox" id="numbers">
+              <label for="numbers">Numbers (0-9)</label>
+            </li>
+            <li class="option">
+              <input type="checkbox" id="symbols">
+              <label for="symbols">Symbols (!-$^+)</label>
+            </li>
+            <li class="option">
+              <input type="checkbox" id="exc-duplicate">
+              <label for="exc-duplicate">Exclude Duplicate</label>
+            </li>
+            <li class="option">
+              <input type="checkbox" id="spaces">
+              <label for="spaces">Include Spaces</label>
+            </li>
+          </ul>
+        </div>
+        <button class="generate-btn">Generate Password</button>   
+      </div>
+    </div>
+    
+</div>  
+    <!-- Footer -->
+<footer class="bg-dark text-center text-lg-start text-white">
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgb(0, 0, 0)">
+      Copyright &copy; <script>document.write(new Date().getFullYear())</script>
+      Developed by
+      <a class="text-white text-decoration-none" href="https://www.linkedin.com/in/abinandhmj/">AbinandhMJ </a> | All rights reserved
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+  </body>
+</html>
