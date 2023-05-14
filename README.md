@@ -23,7 +23,7 @@ Include Spaces
 
 **Your Random Password Will be generated as per the requirements/settings you've selected**
 
-5. You can `copy all icon` the password using the clipboard icon 
+5. You can **COPY** your password using the ``clipboard icon`` 
 ![image](https://github.com/AbinandhMJ/Randompasswordgenerator/assets/99226172/f2edc456-8035-4a52-9b42-3ff29fb4c9f9)
 
 ## Contributing
