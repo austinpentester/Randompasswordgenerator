@@ -34,5 +34,4 @@ to discuss what you would like to change.
 Please make sure to update tests as appropriate.
 
 ## License
-
-[MIT](https://github.com/AbinandhMJ/Randompasswordgenerator/blob/main/LICENSE)
+The Random Password Generator is licensed under the [MIT License.](https://github.com/AbinandhMJ/Randompasswordgenerator/blob/main/LICENSE)
