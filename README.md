@@ -1,21 +1,38 @@
-# Randompasswordgenerator
+# Random Password Generator
 The Password Generator
 Instantly generate a secure, random password with the Random Password Generator Online tool
-Generate randomized, strong, sec..."
-
-Workflow ![](Aspose.Words.cb9c9b41-4831-4d79-9b57-1c35ec44a965.001.png)
-
-1  Navigate to [the site](http://127.0.0.1:5500/index.html)![](Aspose.Words.cb9c9b41-4831-4d79-9b57-1c35ec44a965.002.png)
-1  Press **CTRL** + **R![](Aspose.Words.cb9c9b41-4831-4d79-9b57-1c35ec44a965.002.png)**
-1  Adjust the range field as required and set the password length![](Aspose.Words.cb9c9b41-4831-4d79-9b57-1c35ec44a965.003.png)![](Aspose.Words.cb9c9b41-4831-4d79-9b57-1c35ec44a965.004.jpeg)
-4  Click the "Uppercase (A-Z)" field.![](Aspose.Words.cb9c9b41-4831-4d79-9b57-1c35ec44a965.005.png)![](Aspose.Words.cb9c9b41-4831-4d79-9b57-1c35ec44a965.006.jpeg)
-4  Click the "Numbers (0-9)" field.![](Aspose.Words.cb9c9b41-4831-4d79-9b57-1c35ec44a965.005.png)![](Aspose.Words.cb9c9b41-4831-4d79-9b57-1c35ec44a965.007.jpeg)
-6  Click the "Exclude Duplicate" field.![](Aspose.Words.cb9c9b41-4831-4d79-9b57-1c35ec44a965.005.png)![](Aspose.Words.cb9c9b41-4831-4d79-9b57-1c35ec44a965.008.jpeg)
-6  Click the "Include Spaces" field.![](Aspose.Words.cb9c9b41-4831-4d79-9b57-1c35ec44a965.005.png)![](Aspose.Words.cb9c9b41-4831-4d79-9b57-1c35ec44a965.009.jpeg)
-8  Click the "Symbols (!-$^+)" field.![](Aspose.Words.cb9c9b41-4831-4d79-9b57-1c35ec44a965.005.png)![](Aspose.Words.cb9c9b41-4831-4d79-9b57-1c35ec44a965.010.jpeg)
-8  Click "GENERATE PASSWORD"![](Aspose.Words.cb9c9b41-4831-4d79-9b57-1c35ec44a965.005.png)![](Aspose.Words.cb9c9b41-4831-4d79-9b57-1c35ec44a965.011.jpeg)
-10  Click "copy\_all icon"![](Aspose.Words.cb9c9b41-4831-4d79-9b57-1c35ec44a965.005.png)![](Aspose.Words.cb9c9b41-4831-4d79-9b57-1c35ec44a965.012.jpeg)
+Generate randomized, strong, sec...
 
 
-## 💰 You can help me by Donating
-[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/https://www.buymeacoffee.com/abinandhmu8) 
+### Workflow
+1. Navigate to [Site](index.html) `http://127.0.0.1:5500/index.html`
+![image](https://github.com/AbinandhMJ/Randompasswordgenerator/assets/99226172/3f94efed-6606-4915-9c0c-7d1a74f26914)
+2. Adjust the range field as required and set the password length!
+![image](https://github.com/AbinandhMJ/Randompasswordgenerator/assets/99226172/f9bb999e-50ea-4efe-a6a7-61679a847bf7)
+3. Adjust the range field as per the requirements on the Paassword Settings as follows form their respective fields
+```Lowercase (a-z) 
+Uppercase (A-Z)
+Numbers (0-9)
+Symbols (!-$^+)
+Exclude Duplicate
+Include Spaces 
+```
+![image](https://github.com/AbinandhMJ/Randompasswordgenerator/assets/99226172/38220dfe-9610-4c15-98f8-22a609fe6ece)
+4. Click **GENERATE PASSWORD** Button
+![image](https://github.com/AbinandhMJ/Randompasswordgenerator/assets/99226172/bcb083ef-f1fb-418f-91da-79c4ff3f3ccc)
+
+**Your Random Password Will be generated as per the requirements/settings you've selected**
+
+5. You can `copy all icon` the password using the clipboard icon 
+![image](https://github.com/AbinandhMJ/Randompasswordgenerator/assets/99226172/f2edc456-8035-4a52-9b42-3ff29fb4c9f9)
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
