@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en" data-color-mode="auto" data-light-theme="dark" data-dark-theme="dark" data-a11y-animated-images="system">
 
@@ -7,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="{% static '/assets/img/favicon.png' %} " type="image/x-icon">
 
     <!-- Google Icon Link for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,12 +18,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- External Stylesheets -->
-    <link rel="stylesheet" href="../assets/css/preloader.css">
-    <link rel="stylesheet" href="../assets/css/login.css">
+    <link rel="stylesheet" href="{% static '/assets/css/preloader.css' %}">
+    <link rel="stylesheet" href="{% static '/assets/css/login.css' %}">
 
     <!-- External Js -->
-    <script src="../assets/js/preloader.js" defer></script>
-    <script src="../assets/js/authenticate.js" defer></script>
+    <script src="{% static '/assets/js/preloader.js' %}" defer></script>
+    <script src="{% static '/assets/js/authenticate.js' %}" defer></script>
 
 </head>
 </head>
@@ -51,18 +52,18 @@
 
                 <div class="card bg-glass">
                     <div class="card-body px-4 py-5 px-md-5">
-                        <form>
+                        <form action="" method="post" >
                             <!-- 2 column grid layout with text inputs for the first and last names -->
                             <div class="row">
                                 <div class="col-md-6 mb-4">
                                     <div class="form-outline">
-                                        <input type="text" id="form3Example1" class="form-control" />
+                                        <input type="text" name="first_name" id="form3Example1" class="form-control" />
                                         <label class="form-label" for="form3Example1">First name</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6 mb-4">
                                     <div class="form-outline">
-                                        <input type="text" id="form3Example2" class="form-control" />
+                                        <input type="text" name="last_name" id="form3Example2" class="form-control" />
                                         <label class="form-label" for="form3Example2">Last name</label>
                                     </div>
                                 </div>
@@ -70,13 +71,13 @@
 
                             <!-- Email input -->
                             <div class="form-outline mb-4">
-                                <input type="email" id="form3Example3" class="form-control" />
+                                <input type="email" name="email" id="form3Example3" class="form-control" />
                                 <label class="form-label" for="form3Example3">Email address</label>
                             </div>
 
                             <!-- Password input -->
                             <div class="form-outline mb-4">
-                                <input type="password" id="form3Example4" class="form-control" />
+                                <input type="password" name="password" id="form3Example4" class="form-control" />
                                 <label class="form-label" for="form3Example4">Password</label>
                             </div>
 
